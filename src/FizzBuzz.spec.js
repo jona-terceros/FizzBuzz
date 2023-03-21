@@ -41,4 +41,7 @@ describe("es fizzbuzz", () => {
   it("deberia retornar 1,2,Fizz,4,Buzz", () => {
     expect(fizzbuzz_string(5)).toEqual("1 , 2 , Fizz , 4 , Buzz");
   });
+  it("deberia retornar 1,2,Fizz,4,Buzz", () => {
+    expect(fizzbuzz_string(10)).toEqual("1 , 2 , Fizz , 4 , Buzz , Fizz , 7 , 8 , Fizz , Buzz");
+  });
 });

@@ -22,5 +22,9 @@ describe("es fizzbuzz", () => {
   it("deberia retornar 7", () => {
     expect(fizzbuzz(7)).toEqual(7);
   });
+  it("deberia retornar 8", () => {
+    expect(fizzbuzz(8)).toEqual(8);
+  });
+
 
 });

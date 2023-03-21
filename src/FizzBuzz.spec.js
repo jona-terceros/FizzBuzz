@@ -31,6 +31,8 @@ describe("es fizzbuzz", () => {
   it("deberia retornar buzz", () => {
     expect(fizzbuzz(10)).toEqual("Buzz");
   });
-
+  it("deberia retornar FizzBuzz", () => {
+    expect(fizzbuzz(15)).toEqual("FizzBuzz");
+  });
 
 });

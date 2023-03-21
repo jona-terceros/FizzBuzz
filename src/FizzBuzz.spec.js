@@ -16,5 +16,9 @@ describe("es fizzbuzz", () => {
   it("deberia retornar Buzz", () => {
     expect(fizzbuzz(5)).toEqual("Buzz");
   });
+  it("deberia retornar 6", () => {
+    expect(fizzbuzz(6)).toEqual(6);
+  });
+
 
 });

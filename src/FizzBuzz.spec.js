@@ -1,4 +1,5 @@
 import fizzbuzz from "./fizzbuzz";
+import fizzbuzz_string from "./fizzbuzz_string";
 
 describe("es fizzbuzz", () => {
   it("deberia retornar 1", () => {
@@ -35,4 +36,9 @@ describe("es fizzbuzz", () => {
     expect(fizzbuzz(15)).toEqual("FizzBuzz");
   });
 
+  // pruebas fizzbuzz string
+
+  it("deberia retornar 1,2,Fizz,4,Buzz", () => {
+    expect(fizzbuzz_string(5)).toEqual("1 , 2 , Fizz , 4 , Buzz");
+  });
 });
